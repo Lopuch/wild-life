@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WIldlifeBackend.Engine.Models;
+using WildlifeBackend.Engine.Models;
 
-namespace WIldlifeBackend.Engine
+namespace WildlifeBackend.Engine
 {
     public class WildlifeEngine
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WIldlifeBackend.Engine.Models
+namespace WildlifeBackend.Engine.Models
 {
-    internal class Animal
+    public class Animal
     {
         public int Id { get; set; }
         public Position Position { get; set; }

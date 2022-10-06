@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WIldlifeBackend.Engine.Models
+namespace WildlifeBackend.Engine.Models
 {
-    internal class Need
+    public class Need
     {
         public enum NeedTypes
         {

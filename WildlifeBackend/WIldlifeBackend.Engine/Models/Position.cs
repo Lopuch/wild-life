@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WIldlifeBackend.Engine.Models
+namespace WildlifeBackend.Engine.Models
 {
-    internal class Position
+    public struct Position
     {
-        public int X { get; set; }
-        public int Y { get; set; }
+        public override string ToString()
+        {
+            return $"x: {X}, y: {Y}";
+        }
 
-        public Position(int x, int y)
+        public double X { get; set; }
+        public double Y { get; set; }
+
+        public Position(double x, double y)
         {
             X = x;
             Y = y;

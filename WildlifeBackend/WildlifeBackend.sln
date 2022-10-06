@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildlifeBackend.API", "WildlifeBackend.API\WildlifeBackend.API.csproj", "{B2A5109B-E583-461C-B64A-019FE9C46113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildlifeBackend.API", "WildlifeBackend.API\WildlifeBackend.API.csproj", "{B2A5109B-E583-461C-B64A-019FE9C46113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIldlifeBackend.Engine", "WIldlifeBackend.Engine\WIldlifeBackend.Engine.csproj", "{69EF3C64-15FF-4F45-982D-E2895148B8EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildlifeBackend.Engine", "WIldlifeBackend.Engine\WildlifeBackend.Engine.csproj", "{69EF3C64-15FF-4F45-982D-E2895148B8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildfireBackend.EngineTests", "WildfireBackend.EngineTests\WildfireBackend.EngineTests.csproj", "{1BC78C0D-32D5-4DB2-AAD2-62D0DA26CE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{69EF3C64-15FF-4F45-982D-E2895148B8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69EF3C64-15FF-4F45-982D-E2895148B8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69EF3C64-15FF-4F45-982D-E2895148B8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC78C0D-32D5-4DB2-AAD2-62D0DA26CE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC78C0D-32D5-4DB2-AAD2-62D0DA26CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC78C0D-32D5-4DB2-AAD2-62D0DA26CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC78C0D-32D5-4DB2-AAD2-62D0DA26CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

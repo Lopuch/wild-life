@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WIldlifeBackend.Engine;
+using WildlifeBackend.Engine;
 
 namespace WildlifeBackend.API.Controllers
 {
