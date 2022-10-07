@@ -8,6 +8,7 @@ namespace WildlifeBackend.Engine.Models
 {
     public struct Position
     {
+
         public override string ToString()
         {
             return $"x: {X}, y: {Y}";

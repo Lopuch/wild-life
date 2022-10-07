@@ -9,6 +9,13 @@ namespace WildlifeBackend.Engine.Models
     public class Food
     {
         public Position Position { get; set; }
+        public double Mass { get; set; }
+
+        public Food(Position position, double mass)
+        {
+            Position = position;
+            Mass = mass;
+        }
 
     }
 }

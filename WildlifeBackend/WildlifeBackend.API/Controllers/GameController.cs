@@ -18,7 +18,7 @@ namespace WildlifeBackend.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok();
+            return Ok(_engine.GetWorld());
         }
     }
 }

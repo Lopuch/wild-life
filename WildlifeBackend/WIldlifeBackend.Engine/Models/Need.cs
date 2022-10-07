@@ -19,7 +19,7 @@ namespace WildlifeBackend.Engine.Models
 
         public NeedTypes Type { get; set; }
         public double Satisfaction { get; set; }
-        public Direction? Direction { get; set; }
+        public Position? Position { get; set; }
 
         public Need(NeedTypes type)
         {
